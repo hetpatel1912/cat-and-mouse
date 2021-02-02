@@ -1,0 +1,40 @@
+var cat ,mouse
+
+
+function preload() {
+    cat1Image = loadImage("cat1.png")
+    cat2Image = loadImage("cat2.png")
+    cat3Image = loadImage("cat3.png")
+    cat4Image = loadImage("cat4.png")
+    gardenImage = loadImage("garden.png")
+    mouse1Image = loadImage("mouse1.png")
+    mouse2Image = loadImage("mouse2.png")
+    mouse3Image = loadImage("mouse3.png")
+    mouse4Image = loadImage("mouse4.png")
+
+
+
+}
+
+function setup(){
+    createCanvas(1000,800);
+    
+   
+
+}
+
+function draw() {
+
+    background(255);
+    //Write condition here to evalute if tom and jerry collide
+
+    drawSprites();
+}
+
+
+function keyPressed(){
+
+  //For moving and changing animation write code here
+
+
+}
